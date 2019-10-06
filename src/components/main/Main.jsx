@@ -1,10 +1,10 @@
 import React from "react";
 import "./Main.css";
-import Header from "../header/Header";
+import HorizontalMenu from "../horizontalMenu/HorizontalMenu";
 import * as ReactBootstrap from "react-bootstrap";
 
 function Main() {
-  return <Header />;
+  return <HorizontalMenu />;
 }
 
 export default Main;

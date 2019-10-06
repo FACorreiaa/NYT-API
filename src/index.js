@@ -3,6 +3,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import "typeface-roboto";
+import Icon from "@material-ui/core/Icon";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
